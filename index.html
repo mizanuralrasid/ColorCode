@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>colorCode</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ColorCode</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Web Design</a></li>
+              <li><a class="dropdown-item" href="#">Blogging</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Database management system</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://techassam2021.blogspot.com/">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid card py-5">
+    <div id="bg-image">
+      <div class="container row" style="width: 50%;">
+        <h1 class="card-title">Welcome to <b>ColorCode</b></h1>
+        <p class="card-text my-5">In This Blogging Website You Will Know About The Trending Technology,
+          Information,Education related blogs, coding blogs like
+          <strong><code>c, c++, HTML, CSS, bootstrap</code></strong> and many more etc.
+
+          If you have any query regrading The Trending Technology and Information, Education related News and any other
+          issue, please feel free to contact Us
+        </p>
+      </div>
+      <button class="mx-5 btn btn-primary">View blogs</button>
+    </div>
+  </div>
+  <div class="col">
+    <h3 class="recent text-center my-5">Recent blogs</h3>
+    <div class="container-fluid row" id="recent-post-container">
+
+      <div class="card m-2" style="width: 18rem;">
+        <img src="images.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <img src="images.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <img src="images.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+      <div class="card m-2" style="width: 18rem;">
+        <img src="images.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- --------------pagignation--------------------------------- -->
+  <div class="container-fluid" id="pagination">
+
+    <ul class="pagination float-end mx-5">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </div>
+  <!-- ---------------------------------contact------------------------------------- -->
+  <div id="form" class="col container-fluid">
+
+    <div class="container card bg-transparent" id="get-in-touch">
+      <h2 class="text-center">Get in touch</h2>
+      <hr>
+      <form class="bg-transparent">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="text" class="form-control bg-transparent" id="name" aria-describedby="nameHelp">
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label ">Phone</label>
+          <input type="number" class="form-control bg-transparent" id="phone">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control bg-transparent" name="message" id="message"></textarea>
+        </div>
+        <a href=""><button type="submit" class="btn btn-primary">Submit</button></a>
+      </form>
+    </div>
+  </div>
+
+<!-- Footer -->
+<section id="footer">
+  <div class="container">
+    <div class="row text-center text-xs-center text-sm-left text-md-left">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Quick links</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Quick links</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Quick links</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>About</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+          <li><a href="#"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+          <li><a href="https://techassam2021.blogspot.com/" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+        <ul class="list-unstyled list-inline social text-center">
+          <li class="list-inline-item"><a href="https://www.facebook.com/mizanuralrasid"><i class="fa fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.twitter.com/mizanuralrasid"><i class="fa fa-twitter"></i></a></li>
+          <li class="list-inline-item"><a href="https://www.instagram.com/mizanuralrasid"><i class="fa fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      <hr>
+    </div>	
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+
+        <p class="h6">© All right Reversed.<a class="text-danger ml-2" href="https://mizanuralrasid.github.io/Mizanuralrasid/" target="_blank">Mizanur Alrasid</a></p>
+      </div>
+      <hr>
+    </div>	
+  </div>
+
+</body>
+
+</html>
